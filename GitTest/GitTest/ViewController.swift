@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("Olá Alline")
         image.image = UIImage(named: "Screen")
+        image.frame.height = CGFloat(50)
     }
 
     override func didReceiveMemoryWarning() {
